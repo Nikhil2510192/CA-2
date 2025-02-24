@@ -1,17 +1,17 @@
 import { useState } from 'react'
-import ServiceCard from './components/serviceCard'
+import Servicecard from './components/serviceCard'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <ServiceCard
+      <Servicecard
          title="webDevelopment"
          description="building reponsive websites"
       />
 
-      <ServiceCard
+      <Servicecard
          title="webDesigning"
          description="designin responsive websites"
       />

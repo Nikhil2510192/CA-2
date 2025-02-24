@@ -1,4 +1,4 @@
-const ServiceCard= ({title, description})=>{
+const Servicecard= ({title, description})=>{
      return (
         <div>
               <h1>{title}</h1>
@@ -8,4 +8,4 @@ const ServiceCard= ({title, description})=>{
 }
      
 
-export default ServiceCard
+export default Servicecard
